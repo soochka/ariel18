@@ -115,9 +115,15 @@
            autocomplete="off"
            type="search" id="guess">
 <!-- HTML structure -->
-<a href="https://www.youtube.com/watch?v=-Ivj55ipjcg" id="youtube-link">
-    <input type="submit" value="אין ניחוש תקפוץ" id="guess-btn" />
-</a>
+<input  button type="button"id="watchVideo" value="אין ניחוש תקפוץ">
+<script>
+    // Function to handle button click
+document.getElementById('watchVideo').addEventListener('click', function() {
+    // Redirect to YouTube video page
+    window.location.href = 'https://www.youtube.com/watch?v=-Ivj55ipjcg';
+});
+
+</script>
 
 <!-- JavaScript code to handle button click -->
 <script>
