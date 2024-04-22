@@ -96,19 +96,7 @@
            type="search" id="guess">
 <!-- HTML structure -->
 <input  button type="button"id="watchVideo" value="אין ניחוש תקפוץ">
-        <input id="clue-btn" type="button" value="תזהר ממני">
-<script>
-    // Function to handle button click
-document.getElementById('watchVideo').addEventListener('click', function() {
-    // Redirect to YouTube video page
-    window.location.href = 'https://www.youtube.com/watch?v=-Ivj55ipjcg';
-});
-document.getElementById('clue-btn').addEventListener('click', function() {
-    // Redirect to YouTube video page
-    window.location.href = 'https://www.xvideos.com';
-});
 
-</script>
 
 <!-- JavaScript code to handle button click -->
 <script>
@@ -124,7 +112,7 @@ document.getElementById('clue-btn').addEventListener('click', function() {
 </script>
     </div>
     </form>
-    
+            <input id="clue-btn" type="button" value="תזהר ממני">
     <div id="response"></div>
     <p><b id="timer" hidden></b></p>
     <div style="display:none">
@@ -133,6 +121,18 @@ document.getElementById('clue-btn').addEventListener('click', function() {
     <ul id="clueList">
         
     </ul>
+    <script>
+    // Function to handle button click
+document.getElementById('watchVideo').addEventListener('click', function() {
+    // Redirect to YouTube video page
+    window.location.href = 'https://www.youtube.com/watch?v=-Ivj55ipjcg';
+});
+document.getElementById('clue-btn').addEventListener('click', function() {
+    // Redirect to YouTube video page
+    window.location.href = 'https://www.xvideos.com';
+});
+
+</script>
     <table id="guesses"><tr>
         <th>#</th>
         <th>ניחוש</th>
